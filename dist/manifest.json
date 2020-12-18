@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Flodder - Hide in the mass Extension",
+  "description": "This extension will hide your ass in a mass of random data, so that companies can't track what your intention was. A lot of information can be derived by the durtation etc... Flodder is Dutch for Chaos... There are two modes random and based on your search behaviour.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "activeTab",
+    "history",
+    "<all_urls>"
+  ]
+}
+
